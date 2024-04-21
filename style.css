@@ -1,0 +1,243 @@
+.logo{
+    display: flex;
+    width: fit-content;
+    margin: 10px 0 0 20px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    
+}
+body{
+    background-color: #F6F5F2;
+}
+
+input{
+    height: 40px;
+    width: 700px;
+    position: relative;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 17px;
+    border: 0;
+    border-radius: 5px;
+    
+}
+#magnifine{
+    position: absolute;
+    transform: translateY(15px) translateX(-28px);
+    padding-right: 290px;
+    font-size: 17px;
+}
+.filter{
+    display: flex;
+    padding-left: 5px;
+    position: relative;
+    width: fit-content;
+    margin: 10px 0 0 20px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.man .profile {
+    margin: 0 10px 0 0;
+    padding-right: 5px;
+}
+.new{
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown{
+    margin: 20px 0 0 40px;
+}
+.cart{
+    margin: 20px 0 0 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    font-family: arial,sans-serif;
+    letter-spacing: .2px;
+    text-decoration: none;
+    color: black;
+    border: 0;
+    border-radius: 0;
+}
+.seller{
+    margin: 20px 0 0 40px;
+}
+.cart-img,a{
+    color: black;
+    text-decoration: none;
+}
+button .link{
+    background-color: rgba(0,0,0, 0.5);
+}
+.help{
+    margin: 20px 0 0 40px;
+}
+.dropdown-toggle,a{
+    color: black;
+    text-decoration: none;
+}
+.dropdownmenu ul{
+    list-style: none;
+    width: 100%;
+    display: flex;
+}
+.dropdownmenu li{
+    position: relative;
+    width: auto;
+    display: block;
+}
+.dropdownmenu a{
+    color: black;
+    display: block;
+    font-weight: large;
+    font-size: 17px;
+    font-family: arial,sans-serif;
+    padding: 30px 0 0 30px ;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+.dropdownmenu li:hover a{
+    color: blue;
+}
+#submenu{
+    left: 0;
+    opacity: 0;
+    position: relative;
+    top: 3px;
+    visibility: hidden;
+    z-index: 1;
+    display: block;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+li:hover ul#submenu{
+    opacity: 1;
+    top: 8px;
+    visibility: visible;
+    background-color: #F6F5F2;
+    border-radius: 10px ;
+}
+
+.two{
+   position: relative;
+   transform: translateX(30px) translateY(30px); 
+}
+body{
+    background-color: azure;
+}
+.pics{
+    padding: 100px 0 0 0;
+}
+.container{
+    padding-top: 15px;
+    height: 380px;
+    width: 60%;
+    display: flex;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.oneplus{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 300px;
+    overflow: hidden;
+}
+.nord{
+    text-align: start;
+}
+.grab{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+h1{
+    margin-left: 30px;
+}
+.portable{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 300px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+h6{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+.speaker{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 300px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.watch{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 300px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.projector{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 300px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.pro{
+    text-align: center;
+}
+.dell{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 300px;
+    overflow: hidden;
+    margin-left: 10px; 
+}
+.cam{
+    text-align: center;
+}
+.fly{
+    margin-left: 20px;
+}
+.fast{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;;
+    width: 150px;
+    height: 300px;
+    overflow: hidden;
+    margin-left: 10px; 
+}
+.ast{
+    text-align: center;
+}
+.a{
+    display: flex;
+}
+.b{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(750px) translateY(10px);
+    color: rgba(38, 38, 210, 0.656);
+}
